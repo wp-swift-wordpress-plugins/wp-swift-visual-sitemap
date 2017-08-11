@@ -1,12 +1,6 @@
 <?php
-
 /**
  * The plugin bootstrap file
- *
- * This file is read by WordPress to generate the plugin information in the plugin
- * admin area. This file also includes all of the dependencies used by the plugin,
- * registers the activation and deactivation functions, and defines a function
- * that starts the plugin.
  *
  * @link              https://github.com/wp-swift-wordpress-plugins
  * @since             1.0.0
@@ -15,7 +9,7 @@
  * @wordpress-plugin
  * Plugin Name:       WP Swift: Visual Sitemap
  * Plugin URI:        https://github.com/wp-swift-wordpress-plugins/wp-swift-visual-sitemap
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Create html sitemap with a WordPress shortcode for FoundationPress theme.
  * Version:           1.0.0
  * Author:            Gary Swift
  * Author URI:        https://github.com/wp-swift-wordpress-plugins
