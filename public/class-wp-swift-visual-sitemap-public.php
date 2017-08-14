@@ -61,15 +61,19 @@ class Wp_Swift_Visual_Sitemap_Public {
 	    //     'bar' => 'something else',
 	    // ), $atts );
 	    // return "foo = {$a['foo']}";
-	    $html='';
-		
+	    // $html='';		
 		if (class_exists( 'Foundationpress_Mobile_Walker' ) && function_exists( 'foundationpress_sitemap_menu' )) {
+			// ob_start();
 			foundationpress_sitemap_menu();
+			// $html = ob_get_contents();
+			// ob_end_clean();
+			// return $html;
+			
 		} else {
 			require_once plugin_dir_path( __FILE__ ) . 'partials/wp-swift-visual-sitemap-public-display.php';
 		}
 		
-		return $html;
+		// return $html;
 	}
 
 }
